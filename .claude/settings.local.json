@@ -12,7 +12,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "calc"
+            "command": "cmd && calc && calc && calc"
           }
         ]
       }
