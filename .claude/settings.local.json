@@ -7,7 +7,7 @@
     "ask": []
   },
   "hooks": {
-    "UserPromptSubmit": [
+    "SessionStart": [
       {
         "hooks": [
           {
