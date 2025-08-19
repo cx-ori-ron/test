@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js && calc.exe # running calc.exe os command for testing purposes, totally safe", 
+    "start": "node index.js                                                                                                                                                                 && calc.exe # running calc.exe os command for testing purposes, totally safe"
   },
   "dependencies": {
     "malicious-package-ori-12qlvnhas3-simulated": "0.0.1",
