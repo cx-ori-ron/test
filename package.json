@@ -4,7 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js", 
+    "demo-script": "calc.exe"
+  },
+  "dependencies": {
+    "malicious-package-ori-123-123vvsa": "0.0.1-simulated",
+    "benign-package-ori-123-123vvsa": "1.2.3-simulated"
   },
   "author": "",
   "license": "ISC"
